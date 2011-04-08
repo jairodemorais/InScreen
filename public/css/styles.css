@@ -1,0 +1,71 @@
+/* Makeshift CSS Reset */  
+{  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+/* Tell the browser to render HTML 5 elements as block */  
+header, aside, nav {  
+    display: block;  
+}  
+
+body {  
+    margin: 0 auto;  
+    width: 940px;  
+    font: 13px/22px Helvetica, Arial, sans-serif;  
+}  
+
+nav {  
+    position: absolute;  
+    left: 0;  
+    width: 100%;  
+		border: 1px solid black;
+		color: white;
+} 
+
+nav ul {  
+    margin: 0 auto;  
+    width: 940px;  
+    list-style: none;  
+}  
+
+nav ul li {  
+    float: left;  
+}  
+  
+nav ul li a {  
+	margin-right: 20px;  
+	width: 140px;  
+	font-size: 14px;  
+	line-height: 44px;  
+	text-align: center;  
+	text-decoration: none;  
+	color: #777;  
+}  
+
+nav ul li.selected a {  
+	color: #fff;  
+}  
+
+#content {  
+	display: table;  
+	margin-top: 66px;
+} 
+
+#mainContent {  
+	display: table-cell;  
+	width: 700px;  
+	padding-right: 22px;  
+	border: 1px solid black;
+}  
+
+aside {  
+	display: table-cell;  
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 250px;
+}  
+
+aside h3 {
+	margin-left: 10px;
+}  
